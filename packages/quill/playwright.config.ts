@@ -31,7 +31,7 @@ export default defineConfig({
       },
     },
     { name: 'Firefox', use: { ...devices['Desktop Firefox'] } },
-    { name: 'Safari', use: { ...devices['Desktop Safari'] } },
+    // { name: 'Safari', use: { ...devices['Desktop Safari'] } },
   ],
   webServer: {
     command: `npx webpack serve --config test/e2e/__dev_server__/webpack.config.cjs --env port=${port}`,

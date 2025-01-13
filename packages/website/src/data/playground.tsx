@@ -19,6 +19,10 @@ const playground = [
     title: 'Using Quill with React',
     url: '/playground/react',
   },
+  {
+    title: '# Test Page #',
+    url: '/playground/test-page',
+  },
 ];
 
 export default playground;
